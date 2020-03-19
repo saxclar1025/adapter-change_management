@@ -171,12 +171,6 @@ class ServiceNowConnector {
       uri = this.constructUri(callOptions.query);
     else
       uri = this.constructUri();
-    /**
-     * You must build the requestOptions object.
-     * This is not a simple copy/paste of the requestOptions object
-     * from the previous lab. There should be no
-     * hardcoded values.
-     */
     const requestOptions = {
       method: callOptions.method,
       auth: {
